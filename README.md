@@ -1,8 +1,34 @@
 # DY Safety Walk
 
-An Android app for people who walk while looking at their phone. It overlays the rear camera on top of whatever app is open, semi-transparent, so the street ahead stays visible through the screen. On-device models watch for vehicles and listen for hazardous sounds, and a warning appears in the middle of the screen when something is close.
+**Keep the view ahead visible over your Android apps, with local alerts for detected vehicles and traffic sounds.**
+
+A phone screen can hide what is directly ahead. DY Safety Walk places a semi-transparent rear-camera view over the app you are using, while touches continue to reach that app. On-device models can add a visual warning when they detect a vehicle or recognize a traffic sound. Camera, microphone and screen-brightness processing stay on the phone.
 
 > **This is not a safety device.** It cannot see below your feet, beside you or behind you, and the detectors miss things. Do not rely on it at crossings, on roadways, or anywhere a mistake could hurt you. Look up.
+
+**[Download source ZIP](https://github.com/DY-AGENT/DYSafetyWalk/archive/refs/heads/main.zip)** · **[Build the APK](#building)** · [Try the overlay](#try-the-overlay) · [Privacy and permissions](#privacy)
+
+## What you see
+
+![Illustration of an Android app beneath a transparent camera view, with an example bicycle warning and touch-through controls](docs/images/overlay-example.svg)
+
+*Illustration of the implemented behavior, not a device screenshot or a detection-accuracy test. The example warning text is used by the app; real alerts depend on what its models detect.*
+
+| Situation | What the app displays |
+| --- | --- |
+| Another app is open | A rear-camera view over that app, with touches passed through |
+| A bright page washes out the camera view | Optional local dimming and camera tone/opacity adjustments |
+| A bicycle is detected with enough risk score | A triangle and a message such as `Bicycle nearby — stay alert` |
+| A car horn is recognized | A message such as `Car horn heard — stay alert`; sound direction is not available |
+
+## Try the overlay
+
+This repository provides source code, not a prebuilt APK. [Build the APK](#building), install `DYSafetyWalk.apk` on a compatible Android device, and do your first test while stationary in a safe place.
+
+1. Open **DY Safety Walk** and allow **camera** and **display over other apps**.
+2. Allow **microphone** if you want sound detection. Screen-aware rendering also needs the Android screen-capture prompt when enabled.
+3. Tap **Start**, then open another app to see the camera overlay. Adjust **Camera opacity** and **Background dimming** in the settings as needed.
+4. Return to the settings and tap **Stop** when finished.
 
 ## What it does
 

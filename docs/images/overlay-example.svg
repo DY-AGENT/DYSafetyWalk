@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 510" role="img" aria-labelledby="title desc">
+  <title id="title">DY Safety Walk: camera overlay and example alert</title>
+  <desc id="desc">A behavior illustration, not a device screenshot. A phone shows an app beneath a transparent camera view and a bicycle warning. Touches continue to reach the underlying app.</desc>
+  <rect width="960" height="510" rx="22" fill="#101923"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="38" y="44" fill="#79dec4" font-size="14" font-weight="700" letter-spacing="2">DY SAFETY WALK</text>
+    <text x="38" y="84" fill="#f5f8fc" font-size="30" font-weight="700">Your app + the view ahead</text>
+    <text x="38" y="110" fill="#aebccd" font-size="16">Rear-camera overlay. On-device alerts. Touch-through controls.</text>
+    <rect x="46" y="136" width="256" height="326" rx="24" fill="#080f17" stroke="#64778b" stroke-width="2"/>
+    <rect x="57" y="148" width="234" height="301" rx="15" fill="#e8edf5"/>
+    <rect x="73" y="166" width="116" height="12" rx="6" fill="#8599b3"/>
+    <rect x="73" y="195" width="180" height="48" rx="8" fill="#c4d1e3"/>
+    <rect x="101" y="254" width="170" height="44" rx="8" fill="#a8cfc6"/>
+    <rect x="73" y="369" width="162" height="43" rx="8" fill="#c4d1e3"/>
+    <rect x="57" y="148" width="234" height="301" rx="15" fill="#132a29" opacity="0.24"/>
+    <path d="M159 194 L72 440 M189 194 L280 440" stroke="#f9fffc" stroke-width="5" opacity="0.68"/>
+    <path d="M174 212 L174 252 M174 380 L174 425" stroke="#f9fffc" stroke-width="4" opacity="0.55"/>
+    <g transform="translate(223 213)" fill="none" stroke="#1c5144" stroke-width="3">
+      <circle cx="-15" cy="14" r="11"/><circle cx="16" cy="14" r="11"/>
+      <path d="M-15 14 L-5 -4 L7 14 Z M-5 -4 L10 -4 L16 14 M8 -8 L15 -8 M-9 -8 L-1 -8"/>
+    </g>
+    <path d="M174 274 L207 329 L141 329 Z" fill="#e02b25"/>
+    <rect x="171" y="293" width="6" height="18" rx="3" fill="#141414"/>
+    <circle cx="174" cy="319" r="3" fill="#141414"/>
+    <rect x="64" y="339" width="220" height="29" rx="13" fill="#0d1014"/>
+    <text x="174" y="358" fill="#ffffff" text-anchor="middle" font-size="12">Bicycle nearby — stay alert</text>
+    <text x="174" y="434" fill="#223a4b" text-anchor="middle" font-size="12">Underlying app stays touchable</text>
+    <path d="M321 204 H356" stroke="#79dec4" stroke-width="2"/>
+    <circle cx="367" cy="204" r="5" fill="#79dec4"/>
+    <text x="388" y="200" fill="#f5f8fc" font-size="21" font-weight="700">See the camera over your app</text>
+    <text x="388" y="226" fill="#aebccd" font-size="16">Adjust opacity and dimming in settings.</text>
+    <path d="M321 329 H356" stroke="#ff9e91" stroke-width="2"/>
+    <circle cx="367" cy="329" r="5" fill="#ff9e91"/>
+    <text x="388" y="302" fill="#f5f8fc" font-size="21" font-weight="700">An alert when a detector triggers</text>
+    <text x="388" y="330" fill="#aebccd" font-size="16">Vehicles: triangle, text and optional vibration.</text>
+    <text x="388" y="356" fill="#aebccd" font-size="16">Traffic sounds: a text alert, without direction.</text>
+    <rect x="378" y="395" width="538" height="61" rx="10" fill="#21302f"/>
+    <text x="394" y="420" fill="#d8f4e9" font-size="16" font-weight="700">Look up. Detectors can miss hazards.</text>
+    <text x="394" y="441" fill="#b7d2c7" font-size="14">Not a safety device; never rely on it at crossings.</text>
+    <text x="38" y="490" fill="#8b9caf" font-size="13">BEHAVIOR ILLUSTRATION · Not a device screenshot or an accuracy benchmark</text>
+  </g>
+</svg>
