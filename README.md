@@ -32,6 +32,7 @@ Everything runs on the device. The app does **not** request the `INTERNET` permi
 No Gradle. You need JDK 11+, `curl`, `unzip`, and the Android SDK with `platforms;android-34` and `build-tools;34.0.0`.
 
 ```sh
+chmod +x build.sh scripts/fetch_deps.sh       # make the checked-out scripts executable
 ./scripts/fetch_deps.sh                     # models, TensorFlow Lite, compiler (SHA-256 verified)
 ANDROID_HOME=/path/to/android-sdk ./build.sh
 ```
