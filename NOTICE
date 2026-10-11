@@ -1,0 +1,11 @@
+DY Safety Walk
+Copyright 2026 DY Safety Walk contributors
+
+The application source in this repository is distributed under the MIT License.
+See LICENSE.
+
+Third-party components are not distributed in this source tree and retain their
+own licenses. The build downloads TensorFlow Lite 2.16.1 from Maven Central
+(Apache License 2.0) and Google MediaPipe EfficientDet-Lite0 / YAMNet models.
+Refer to the original model documentation and license terms before redistribution.
+These third-party components are not relicensed under the application's MIT License.

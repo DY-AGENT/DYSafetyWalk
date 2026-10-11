@@ -1,0 +1,26 @@
+# build output
+build/
+*.apk
+*.aab
+*.idsig
+
+# fetched by scripts/fetch_deps.sh
+assets/*.tflite
+assets/*.f32
+assets/coco_labels.txt
+assets/yamnet_labels.txt
+libs/
+jni/
+tools/
+.cache/
+
+# signing keys: never commit these
+*.keystore
+*.jks
+keystore.properties
+
+# editors / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
